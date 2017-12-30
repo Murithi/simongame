@@ -1,0 +1,143 @@
+body {
+  font-family: 'Alegreya Sans', sans-serif;
+  background-color: #2b323a;
+}
+
+.container {
+  margin: auto;
+  text-align: center;
+}
+
+.simonBoard {
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 600px;
+  height: 600px;
+  border: 5px solid 2b323a;
+  border-radius: 600px;
+}
+
+.pad {
+  margin: 0;
+  float: left;
+  position: relative;
+  width: 290px;
+  height: 290px;
+  border: solid 3px black;
+}
+.green {
+  background-color: green;
+  border-radius: 300px 0 0 0;
+}
+
+.green:active {
+  background: #9cff9c;
+}
+.green-isactive {
+  background: #9cff9c;
+}
+.red {
+  background-color: red;
+  border-radius: 0 300px 0 0;
+}
+.red:active {
+  background: #ff6868;
+}
+.red-isactive {
+  background: #ff6868;
+}
+.yellow {
+  background-color: yellow;
+  border-radius: 0 0 0 300px;
+}
+.yellow:active {
+  background: #ffff68;
+}
+.yellow-isactive {
+  background: #ffff68;
+}
+.blue {
+  background-color: blue;
+  border-radius: 0 0 300px 0;
+}
+.blue:active {
+  background: #6868ff;
+}
+.blue-isactive {
+  background: #6868ff;
+}
+.controls {
+  width: 245px;
+  height: 245px;
+  margin-left: 160px;
+  margin-top: 160px;
+  background-color: white;
+  border: solid 10px black;
+  border-radius: 150px;
+  position: absolute;
+  z-index: 10;
+}
+
+.title {
+  margin-top: 30px;
+  font-size: 45px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.inline {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.display {
+  width: 60px;
+  height: 45px;
+  border: solid 2px black;
+  background-color: #342626;
+  border-radius: 10px;
+  color: white;
+  font-size: 40px;
+}
+
+.start,
+.strict {
+  margin: 0px;
+  margin-left: 20px;
+  text-align: center;
+  width: 55px;
+  height: 55px;
+  border: solid 2px black;
+  border-radius: 30px;
+  color: black;
+  font-size: 22px;
+  line-height: 55px;
+}
+
+.start {
+  background-color: red;
+}
+.strict {
+  background-color: yellow;
+}
+.outer-switch {
+  width: 60px;
+  height: 30px;
+  border: solid 1px black;
+  background-color: black;
+}
+.gamestate {
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+}
+.inner-switch {
+  width: 30px;
+  height: 30px;
+  background-color: #3193de;
+}
+.inner-inner-switch {
+  width: 30px;
+  height: 30px;
+  background-color: fuchsia;
+}
